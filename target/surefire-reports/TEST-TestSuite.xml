@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="14.631" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="86.66" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17+35"/>
@@ -61,26 +61,6 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="openYoutube" classname="lounch.LounchYoutube" time="13.312">
-    <failure message="io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com" type="io.github.bonigarcia.wdm.config.WebDriverManagerException">io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at lounch.LounchYoutube.openYoutube(LounchYoutube.java:16)
-Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at lounch.LounchYoutube.openYoutube(LounchYoutube.java:16)
-Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at lounch.LounchYoutube.openYoutube(LounchYoutube.java:16)
-</failure>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-]]></system-err>
-  </testcase>
-  <testcase name="run" classname="lounch.FbLounch" time="0.446">
-    <failure message="io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com" type="io.github.bonigarcia.wdm.config.WebDriverManagerException">io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at lounch.FbLounch.run(FbLounch.java:17)
-Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at lounch.FbLounch.run(FbLounch.java:17)
-Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at lounch.FbLounch.run(FbLounch.java:17)
-</failure>
-  </testcase>
+  <testcase name="openYoutube" classname="lounch.LounchYoutube" time="60.819"/>
+  <testcase name="run" classname="lounch.FbLounch" time="25.192"/>
 </testsuite>

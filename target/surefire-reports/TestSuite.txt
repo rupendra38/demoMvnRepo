@@ -1,20 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 14.631 sec <<< FAILURE! - in TestSuite
-openYoutube(lounch.LounchYoutube)  Time elapsed: 13.312 sec  <<< FAILURE!
-io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at lounch.LounchYoutube.openYoutube(LounchYoutube.java:16)
-Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at lounch.LounchYoutube.openYoutube(LounchYoutube.java:16)
-Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at lounch.LounchYoutube.openYoutube(LounchYoutube.java:16)
-
-run(lounch.FbLounch)  Time elapsed: 0.446 sec  <<< FAILURE!
-io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at lounch.FbLounch.run(FbLounch.java:17)
-Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at lounch.FbLounch.run(FbLounch.java:17)
-Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
-	at lounch.FbLounch.run(FbLounch.java:17)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 86.66 sec - in TestSuite

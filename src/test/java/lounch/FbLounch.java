@@ -19,7 +19,7 @@ public class FbLounch {
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
 		
-		//
+		// this is for mvn cycle test
 	}
 	
 
